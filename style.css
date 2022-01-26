@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contanier {
+    width: 100vw;
+    
+    position: relative;
+}
+.contanier .silder img {
+    width: 100%;
+    height: 600px;
+    
+}
+.prew {
+    position: absolute;
+    top:35%;
+    font-size: 34px;
+    color: black;
+    background: rgba(255, 255, 255, 0.521);
+    font-weight: 500;
+    border-radius: 50%;
+    padding: 8px 20px; 
+}
+.next {
+    position: absolute;
+    right: 20px;
+   
+}
+.contanier .silder  {
+    display:none;
+    transition: all 0.25s ease;
+}
